@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "290707689224",
+    "firebase_url": "https://meuoreo-d8cf1.firebaseio.com",
+    "project_id": "meuoreo-d8cf1",
+    "storage_bucket": "meuoreo-d8cf1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290707689224:android:1246f4738071aa59",
+        "android_client_info": {
+          "package_name": "com.example.hp.oreo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290707689224-17kb4c32bt5omomomdcqs6edd87uto8f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.oreo",
+            "certificate_hash": "4c1623b9c33003edfdda166566f0e1aa439ad023"
+          }
+        },
+        {
+          "client_id": "290707689224-jup7th4rrgm2trtd2qaejl351ft2rlp3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6XUCMxfs3PgNKaA5b7VqqwlC9IojD504"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290707689224-jup7th4rrgm2trtd2qaejl351ft2rlp3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

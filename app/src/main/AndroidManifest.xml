@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.oreo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".activities.OreoLogin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.OreoRelatorio" />
+        <activity android:name=".activities.OreoContatos" />
+        <activity android:name=".activities.OreoPrimeiroAcesso" />
+        <activity android:name=".activities.OreoConversaIndividual" />
+        <activity android:name=".activities.OreoConversas" />
+        <activity android:name=".activities.OreoCadastro" />
+        <activity android:name=".activities.Cadastro"></activity>
+    </application>
+
+</manifest>

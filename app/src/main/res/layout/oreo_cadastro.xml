@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.oreo.activities.Cadastro">
+
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.Toolbar
+
+                android:id="@+id/toolbar3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                app:title="CADASTRO"
+                app:titleTextColor="@color/corBranca"
+                app:navigationIcon="?attr/homeAsUpIndicator"
+                android:navigationIcon="@color/corBranca"/>
+
+            <EditText
+
+
+                android:id="@+id/edtCadCpf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="CPF"
+                android:inputType="number" />
+
+
+            <EditText
+
+
+                android:id="@+id/edtCadNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Nome "
+                android:inputType="textCapCharacters" />
+
+            <EditText
+
+
+                android:id="@+id/edtCadSetor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Setor"
+                android:inputType="textCapCharacters" />
+
+
+            <EditText
+
+
+                android:id="@+id/edtCadFuncao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Funcao"
+                android:inputType="textCapCharacters|date" />
+
+            <EditText
+
+
+                android:id="@+id/edtCadEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+
+                android:id="@+id/edtCadSenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Senha "
+                android:inputType="textPassword" />
+
+            <EditText
+
+                android:id="@+id/edtCadConfirmarSenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Confirmar Senha "
+                android:inputType="textPassword" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:id="@+id/rgSexo">
+
+                <RadioButton
+
+                    android:id="@+id/rbFeminino"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Feminino  " />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rbMasculino"
+                    android:text="Masculino  "
+                    android:checked="true"/>
+                <Button
+                    android:id="@+id/btnGravar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:text="Gravar"
+                    android:textColor="@color/corBranca"/>
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

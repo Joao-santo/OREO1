@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context="com.example.hp.oreo.activities.OreoLogin">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+
+        app:srcCompat="@drawable/logoint"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="53dp"
+            android:layout_gravity="right"
+            android:drawableLeft="@drawable/ic_action_user"
+            android:drawablePadding="15dp"
+            android:ems="15"
+            android:gravity="center"
+            android:hint="Digite seu Email"
+            android:inputType="textEmailAddress"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/edtSenha"
+            android:layout_marginRight="16dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp" />
+
+        <EditText
+            android:id="@+id/edtSenha"
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:layout_gravity="right"
+            android:drawableLeft="@drawable/ic_lock"
+            android:drawablePadding="15dp"
+            android:ems="15"
+            android:gravity="center"
+            android:hint="Digite sua Senha"
+            android:inputType="textPassword"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/btnConectar"
+            app:layout_constraintRight_toRightOf="@+id/edtEmail"
+            app:layout_constraintLeft_toLeftOf="@+id/edtEmail" />
+
+        <Button
+            android:id="@+id/btnConectar"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:background="@color/colorAccent"
+            android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+            android:drawablePadding="15dp"
+            android:gravity="center"
+            android:ems="15"
+
+            android:text="Conectar   "
+            android:textColor="@color/corBranca"
+            android:typeface="serif"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/txtSenhaEsquecida"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            app:layout_constraintRight_toRightOf="@+id/edtSenha"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/edtSenha"
+            android:layout_marginStart="8dp" />
+
+        <TextView
+            android:id="@+id/txtSenhaEsquecida"
+            android:layout_width="0dp"
+            android:layout_height="27dp"
+            android:layout_weight="0.04"
+            android:gravity="center"
+            android:text="Fazer novo CADASTRO!"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="6dp"
+            app:layout_constraintRight_toRightOf="@+id/btnConectar"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/btnConectar"
+            android:layout_marginStart="8dp" />
+
+
+</android.support.constraint.ConstraintLayout>
+
